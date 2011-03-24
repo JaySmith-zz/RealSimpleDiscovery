@@ -1,7 +1,5 @@
-
-/src/_ReSharper.RealSimpleDiscovery
-/src/Example/bin
-/src/Example/obj
-/src/JaySmith.RealSimpleDiscovery/bin
-/src/JaySmith.RealSimpleDiscovery/obj
-/src/RealSimpleDiscovery.5.1.ReSharper.user
+bin
+obj
+*.suo
+*.ReSharper
+*_ReSharper.*/**
