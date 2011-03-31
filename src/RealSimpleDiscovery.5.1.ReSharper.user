@@ -1,0 +1,31 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2E007F74-7AD3-4D6F-AA98-F151109E54CB/f:ApiCollection.cs" caret="0" fromTop="0" />
+      <File id="2E007F74-7AD3-4D6F-AA98-F151109E54CB/f:ApiElement.cs" caret="0" fromTop="0" />
+      <File id="2E007F74-7AD3-4D6F-AA98-F151109E54CB/f:RealSimpleDiscoveryHandler.cs" caret="1877" fromTop="26" />
+      <File id="678C4BBF-D4C9-4FA1-8236-1999736EF4D3/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+      <File id="678C4BBF-D4C9-4FA1-8236-1999736EF4D3/d:Views/d:Shared/f:_Layout.cshtml" caret="662" fromTop="22" />
+      <File id="678C4BBF-D4C9-4FA1-8236-1999736EF4D3/f:Web.config" caret="954" fromTop="4" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

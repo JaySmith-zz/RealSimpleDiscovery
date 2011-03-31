@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>JaySmith.RealSimpleDiscovery</id>
+    <version>1.0</version>
+    <authors>Jay Smith</authors>
+    <owners>Jay Smith</owners>
+    <projectUrl>https://github.com/JaySmith/RealSimpleDiscovery</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A configuration based handler for providing Real Simple Discovery support to your web applications.</description>
+    <tags>RSD RealSimpleDiscovery</tags>
+  </metadata>
+</package>

@@ -1,0 +1,16 @@
+<configuration>
+    <configSections>
+		<section name="realSimpleDiscovery" type="JaySmith.RealSimpleDiscovery.RealSimpleDiscoverySection" allowLocation="true" allowDefinition="Everywhere" />
+        
+    </configSections>
+    <system.web>
+        <httpHandlers>
+			<add verb="*" path="rsd.axd" type="JaySmith.RealSimpleDiscovery.RealSimpleDiscoveryHandler, JaySmith.RealSimpleDiscovery, Version=1.0.*, Culture=neutral" validate="false" />
+        </httpHandlers>
+    </system.web>
+    <realSimpleDiscovery>
+		<apis>
+			<add name="MetaWeblog" preferred="true" apiLink="metaweblog.axd"/>
+		</apis>
+	</realSimpleDiscovery>
+</configuration>
