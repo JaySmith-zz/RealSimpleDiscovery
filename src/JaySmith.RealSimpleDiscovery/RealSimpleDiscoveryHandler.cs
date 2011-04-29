@@ -36,8 +36,8 @@ namespace JaySmith.RealSimpleDiscovery
                 {
                     rsd.WriteStartElement("api");
                     rsd.WriteAttributeString("name", api.Name);
-                    rsd.WriteAttributeString("preferred", "true");
-                    rsd.WriteAttributeString("apiLink", prefix + context.Request.Url.Authority + VirtualPathUtility.ToAbsolute("~/") + api.ApiLink);
+                    rsd.WriteAttributeString("preferred", api.Preferred.ToString());
+                    rsd.WriteAttributeString("apiLink", prefix + context.Request.Url.Authority + VirtualPathUtility.ToAbsolute("~/" + api.ApiLink));
                     rsd.WriteAttributeString("blogID", AbsolutePath(context));
                     rsd.WriteEndElement();
                 }
