@@ -1,10 +1,8 @@
 bin
 obj
-<<<<<<< HEAD
 *.suo
 *.ReSharper
 *_ReSharper.*/**
-=======
 build
 *.user
 *.cache
@@ -13,5 +11,3 @@ Logs
 TestResult.xml
 # This line keeps the db in check - comment it out to update the starting db
 data
-_ReSharper*
->>>>>>> fddcef1f8e1565b1ac589e5e2244c57431409303
